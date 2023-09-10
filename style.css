@@ -152,6 +152,7 @@ font-family: 'Kaushan Script', cursive;
 .imgCenter {
  height: 300px;
  width: auto;
+ margin: auto;
  display: flex;
  justify-content: center;
  padding-bottom: 30px;
