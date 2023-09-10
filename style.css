@@ -1,0 +1,191 @@
+a{
+    text-decoration: none;
+  }
+  body {
+ 
+     background: linear-gradient(90deg, #a6d8f0, #e6e9e3);
+
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; 
+ above was also included in the code provided at https://www.reddit.com/r/css/comments/tchzwc/gradient_not_working_when_theres_a_background/ but im not sure what they do becuase without it it still works, will follow up with some more research  
+ when using background-image: linear-gradient(direction, color-stop1, color-stop2, ...); i could not get it to work  */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #88a795; 
+  }
+  h1{
+font-family: 'Kaushan Script', cursive;
+
+  }
+  nav{
+    background-color: rgb(217, 149, 145);
+    box-shadow: 10px 10px 10px rgb(188, 123, 119)
+  
+  }
+  aside{
+    background-color: #88a795;
+    box-shadow: 10px 10px 10px #576e60;
+    float: right;
+  }
+  aside{
+    color:rgb(245, 201, 199);
+    font-family: 'Kaushan Script', cursive;
+   text-align: center;
+   font-size:  25px;
+   margin: auto;
+    box-shadow: 5px 5px 10px rgb(43, 92, 73); 
+  }
+  header{
+    background-image: url(./assets/safar-safarov-hQiEuEX8_N4-unsplash.jpg);
+    background-position: center;
+    padding: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(217, 149, 145);
+  }
+  a:visited{
+    color: #dbc7c9;
+  }
+  a:hover {
+    color: rgb(189, 253, 239);
+  }
+  section{
+    border:double 5px;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: #f3e1e3;
+    box-shadow: #796d6f 3px 2px 2px;
+    /* border-right:solid 2px;
+    border-left:solid 2px;
+    border-top: solid 2px; */
+  }
+  
+  h1{
+    font-size: 4em;
+    text-shadow: #5c7d6a 3px  4px 4px ;
+  }
+  p{
+    font-size: 1.4em;
+    font-family: 'Playball', cursive;
+    
+  }
+  span{
+    font-weight:700;
+  }
+  main{
+    background-color: #dbc7c9;
+    width: 90%;
+    margin: auto;
+  }
+  p{
+    text-align: justify;
+  }
+  h1, h2 {
+    text-align: center ;
+  }
+  li{
+   list-style: none;
+  }
+  aside h3{
+    background-color:#88a795 ;
+    color:rgb(217, 149, 145);
+    font-family: 'Playball', cursive;
+    font-size: 2em;
+    text-shadow:rgb(188, 123, 119) 3px 2px 2px ;
+    margin: auto;
+   
+  
+    
+    
+  
+  }
+  nav h3{
+    color:#88a795;
+    font-family: 'Playball', cursive;
+    font-size: 2em;
+    text-shadow:#4a6656 3px 2px 2px ;
+  }
+  .h21{
+    text-shadow:#4a6656 3px 2px 2px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.3em;
+
+  }
+  .h22{
+    color:rgb(217, 149, 145) ;
+    text-shadow:rgb(131, 85, 82) 3px 2px 2px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.3em;
+
+  }
+  .h23{
+    color:#c0c4bf ;
+    text-shadow:#565756 3px 2px 2px ;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.3em;
+
+  }
+
+  nav ul {
+   
+    
+    overflow: hidden;
+    background-color: rgb(217, 149, 145);
+  }
+  
+  /* found solution for nav bar at https://www.w3schools.com/css/css_navbar_horizontal.asp */
+  nav li {
+   display: inline;
+  }
+  
+  nav li a {
+    color: #658d75;
+    padding: 6px 50px;
+    font-size: 1.5em;
+    font-family: 'Playball', cursive;
+  }
+  
+  nav li a:hover {
+    background-color: #dbc7c9;
+  }
+.imgCenter {
+ height: 300px;
+ width: auto;
+ display: flex;
+ justify-content: center;
+ padding-bottom: 30px;
+}
+
+
+.mainRight{
+  float: left;
+  margin: 0 1.5%;
+  width: 60%;
+}
+.asideLeft {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+footer h4 {
+ color: #88a795;
+ font-size: 1.5em;
+ font-family: 'Playball', cursive;
+ text-shadow:#4a6656 2px 1px 1px ;
+ 
+}
+
+footer {
+ 
+ font-family: 'Playball', cursive;
+ font-size: 1.1em;
+float: right;
+margin: 0 2%;
+width: 30%;
+text-align:left;
+
+
+ 
+
+}
